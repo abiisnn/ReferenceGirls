@@ -1,5 +1,5 @@
 /* Sparse table that give you the greater
-	number in an range. 					*/
+	number in a range. 					*/
 int func(int a, int b) {
 	int ans;
 	if(a > b) ans = a;
