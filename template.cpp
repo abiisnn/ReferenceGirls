@@ -4,12 +4,18 @@ using namespace std;
 #define fore(i, a, b) for(int i = a; i < b; i++)
 #define fori(i, a, b) for(int i = a; i <= b; i++)
 #define pb push_back
+#define popb pop_back
 #define mk make_pair
-#define f first
-#define s second
+#define fi first
+#define se second
 #define endl '\n'
+#define MAX 60
 typedef long long int lli;
+typedef long double ld;
+const double PI = acos(-1.0);
+ld eps = 1e-9;
 
 int main() {
 	optimizar_io
+
 }
