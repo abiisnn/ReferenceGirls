@@ -15,6 +15,12 @@ typedef long double ld;
 const double PI = acos(-1.0);
 ld eps = 1e-9;
 
-int main() {
-	optimizar_io
+// Show all the bits
+void printBits(lli n) {
+	for (int i = sizeof(n) * 8 - 1; ~i; i--)
+		cout << ((n >> i) & 1);
+	cout << endl;
 }
+
+
+

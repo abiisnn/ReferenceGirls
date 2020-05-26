@@ -1,5 +1,5 @@
 // Return: index of the element or -1 if doesnt exists.
-int binarySearch(vector<lli> &a, int l, int r, lli target) { // O(log(a.size()))
+int binarySearch(vector<lli> &a, int l, int r, lli target) { // O(log(n)
 	while(l <= r) {
 		int mid = l + (r - l) / 2;
 		if(a[mid] == target) return mid;

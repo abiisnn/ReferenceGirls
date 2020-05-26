@@ -15,6 +15,14 @@ typedef long double ld;
 const double PI = acos(-1.0);
 ld eps = 1e-9;
 
+
 int main() {
-	optimizar_io
+	int a = 15;
+	cout << "Number of one's in the number:" << __builtin_popcount(a) << endl;
+	long b = 15;
+	cout << "Number of one's in the number:" << __builtin_popcountl(b) << endl;
+	long long c = 15;
+	cout << "Number of one's in the number:" << __builtin_popcountll(c) << endl;
+	long long int d = 15;
+	cout << "Number of one's in the number:" << __builtin_popcountll(d) << endl;
 }
